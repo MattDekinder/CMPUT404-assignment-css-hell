@@ -21,4 +21,6 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+The CSS file created by Matthew Dekinder is licensed under the Apache 2.0 license. 
+
 
