@@ -11,4 +11,21 @@
  See the License for the specific language governing permissions and
  limitations under the License. */
 
- 
+ body {
+    background-color: lightyellow; /*this could be darker*/
+    margin-right: 150px;
+    margin-left: 150px;
+}
+h1{
+	font-size:300%;
+}
+h2{
+	font-size:200%;
+}
+/*http://stackoverflow.com/questions/20299303/create-great-capital-letter-like-in-old-books 
+Create Capital Letter Like in Old books stack overflow answer by Mohsen Safari*/
+p:first-letter{
+    font-size:300%;
+    float:left;
+    padding-right:10px;
+}

@@ -24,3 +24,7 @@ Code is licensed under the Apache 2.0 license.
 The CSS file created by Matthew Dekinder is licensed under the Apache 2.0 license. 
 
 
+Sources:
+http://stackoverflow.com/questions/20299303/create-great-capital-letter-like-in-old-books 
+Create Capital Letter Like in Old books stack overflow answer by Mohsen Safari
+
