@@ -16,11 +16,12 @@
     margin-right: 150px;
     margin-left: 150px;
 }
-h1{
-	font-size:300%;
+pre{
+	text-align: center;
 }
-h2{
-	font-size:200%;
+h1,h2,h3,h4,h5{
+	font-size:300%;
+	text-align: center;
 }
 /*http://stackoverflow.com/questions/20299303/create-great-capital-letter-like-in-old-books 
 Create Capital Letter Like in Old books stack overflow answer by Mohsen Safari*/
@@ -29,3 +30,39 @@ p:first-letter{
     float:left;
     padding-right:10px;
 }
+/*The letter styling should not be applied to the table of contents nor centered text*/
+.toc:first-letter{
+	font-size:100%;
+	padding-right: 0px;
+	float:none;
+}
+.center:first-letter, .ft200:first-letter{
+	font-size:100%;
+	padding-right: 0px;
+	float:none;
+}
+
+/*http://stackoverflow.com/questions/7631722/css-first-letter-not-working CSS :first-letter not working 
+answer by Sandeep
+
+any text contained within a span should also not be getting the letter style*/
+span {display:block}
+span:first-letter{
+	font-size:100%;
+	padding-right: 0px;
+	float:none;
+}
+.toc{
+	font-style: italic;
+}
+div.fig{
+	display: flex;
+	margin: 0 auto;
+}
+.figcenter{display: flex;
+	margin: 0 auto;
+}
+.center, .ft200{
+	text-align: center;
+}
+
