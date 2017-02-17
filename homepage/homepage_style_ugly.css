@@ -8,9 +8,10 @@ body {
 ul.toc{
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background: linear-gradient(rgba(255, 234, 77, 0.85), orange);;
     display: flex;
     margin: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 li.toc {
     padding: 0 .5em;
@@ -31,7 +32,7 @@ li a:hover:not(.active) {
 .header{
     display:flex;
     justify-content: center;
-    background: linear-gradient(rgba(27, 90, 255, 0.85), #12379c);
+    background: -webkit-linear-gradient(35deg, lightblue, blue);
     flex-direction: column;
 }
 .title{
@@ -39,7 +40,11 @@ li a:hover:not(.active) {
 }
 h1{
     font-size: 400%;
-    color: white;
+    /*https://www.w3schools.com/css/css3_gradients.asp*/
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: -webkit-linear-gradient(left, lightyellow,yellow, red,darkgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-body{
@@ -51,13 +56,13 @@ h1{
 .sidebar{
     width: 25%;
     display:inline;
-    background-color: #c8c8c8;
+    background-color: #c8980f;
     float: right;
     text-align: center;
     position:absolute;
     padding: 1em;
     right:0;
-    top:10em;
+    top:12em;
     margin-right:1em;
     margin-top: inherit;
 }
@@ -69,5 +74,10 @@ h1{
 img{
     float: left;
     margin-right: 1em;
-
+}
+p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
