@@ -21,7 +21,11 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-The CSS file created by Matthew Dekinder is licensed under the Apache 2.0 license. 
+The code files created by Matthew Dekinder is licensed under the Apache 2.0 license. 
+
+Textual content in good.html and ugly.html is copyright Matthew Dekinder (C) 2017 under the CC-BY-SA
+3.0 unported license. Attribution should be a hyperlink to the
+repository and (C) 2017 Matthew Dekinder visibile in the text.
 
 Changes to Project Gutenberg HTML:
 =================================
@@ -39,3 +43,6 @@ answer by Sandeep
 
 https://www.sitepoint.com/web-foundations/attribute-selector-css-selector/ by Adam Roberts
 
+From W3 schools:
+https://www.w3schools.com/css/css3_gradients.asp
+https://www.w3schools.com/css/css_font.asp
